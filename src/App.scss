@@ -1,0 +1,63 @@
+html,
+body {
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(
+      #1d1d1d 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      transparent 50%,
+      transparent 75%,
+      #242424 75%,
+      #242424
+    );
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+.wrapper {
+  text-align: center;
+}
+.crossed-line {
+  text-decoration: line-through 3px;
+  color: greenyellow;
+}
+.attained {
+  margin-right: 20px;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.btn:focus {
+  outline: none;
+}
+.grocery-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  font-size: 32px;
+}
+.form-check-label {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 20px;
+}
+.bought{
+  margin-left: 20px;
+  color: #fff
+}
+
